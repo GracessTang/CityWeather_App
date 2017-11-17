@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="sg.com.kaplan.cityweather.MainActivity"
+    android:id="@+id/relativeLayout">
+
+    <ImageButton
+        android:id="@+id/imgBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="37dp"
+        android:contentDescription="@string/imgbtn1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgbtn1" />
+
+    <ImageButton
+        android:id="@+id/imgBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imgBtn4"
+        android:layout_alignTop="@+id/imgBtn1"
+        android:contentDescription="@string/imgbtn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgBtn1"
+        app:srcCompat="@drawable/imgbtn2" />
+
+    <ImageButton
+        android:id="@+id/imgBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imgBtn1"
+        android:layout_below="@+id/imgBtn1"
+        android:layout_marginTop="42dp"
+        android:contentDescription="@string/imgbtn3"
+        app:layout_constraintBottom_toTopOf="@+id/txtView3"
+        app:layout_constraintStart_toStartOf="@+id/txtView"
+        app:srcCompat="@drawable/imgbtn3" />
+
+    <ImageButton
+        android:id="@+id/imgBtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imgBtn3"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="@string/imgbtn4"
+        app:srcCompat="@drawable/imgbtn4"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <TextView
+        android:id="@+id/txtView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imgBtn2"
+        android:layout_below="@+id/imgBtn2"
+        android:fontFamily="monospace"
+        android:text="Gallery"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtView"
+        app:layout_constraintBottom_toBottomOf="@+id/txtView"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn2" />
+
+    <TextView
+        android:id="@+id/txtView3"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_alignStart="@+id/imgBtn3"
+        android:layout_below="@+id/imgBtn3"
+        android:fontFamily="monospace"
+        android:text="Contact Us"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn3" />
+
+    <TextView
+        android:id="@+id/txtView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imgBtn4"
+        android:layout_below="@+id/imgBtn4"
+        android:fontFamily="monospace"
+        android:text="About Us"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="casual"
+        android:text="Hi, How are you today?"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imgBtn1"
+        android:layout_below="@+id/imgBtn1"
+        android:text="@string/weather_check"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

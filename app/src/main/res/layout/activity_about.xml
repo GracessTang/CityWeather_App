@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/aboutbg"
+    tools:context="sg.com.kaplan.cityweather.About">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="157dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/full" />
+
+    <TextView
+        android:id="@+id/ttAbout"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_weight="1"
+        android:text="@string/about_this_app"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="This is a simple, fast and user friendly weather app for your Android mobile, with a clean user interface without those clutter and ads. Getting weather information has never been so easy and amazing! "
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sharebtn"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Share This App"
+        android:textSize="18sp" />
+
+</LinearLayout>

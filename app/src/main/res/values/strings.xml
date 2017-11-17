@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CityWeather</string>
+    <string name="textview">Hello,World!</string>
+    <string name="todo">TODO</string>
+    <string name="imgbtn1">imgbtn1</string>
+    <string name="imgbtn2">imgbtn2</string>
+    <string name="imgbtn3">imgbtn3</string>
+    <string name="imgbtn4">imgbtn4</string>
+    <string name="weather_check">Weather Check</string>
+    <string name="enter_city_ex_singapore">Enter City ex Singapore</string>
+    <string name="get">get</string>
+    <string name="contact_developer">Contact Developer</string>
+    <string name="contact">Contact Developer</string>
+    <string name="send">Send</string>
+    <string name="email">Enter your email:</string>
+    <string name="name">Enter your name:</string>
+    <string name="subject">Subject:</string>
+    <string name="message">Message:</string>
+    <string name="about_this_app">About This App</string>
+    <string name="relax">Relax</string>
+
+
+</resources>
